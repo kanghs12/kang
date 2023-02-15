@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="css/solo3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>
+
+
+
+<video poster="" id="bgvid" playsinline autoplay muted loop>
+  <!-- 
+- Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="./media/laferrariVideo.mp4" type="video/webm">
+<source src="./media/laferrariVideo.mp4" type="video/mp4">
+
+</video>
+<div id="polina">
+<h1>Ferarri</h1>
+<p>Company Anniversary in 1939.
+<p><a href="./media/laferrariVideo.mp4">Enzo Ferrari</a>
+<p>Afterwards, the Ferrari founded Auto Avio Construzioni in Modena in 1939 to make his own race cars. At this time, he made the 815 and participated in 13 races including the 1940 Mille Malia race, winning six times. However, when Benito Mussolini's fascist regime entered World War II, automobile racing was banned, and the Ferrari factory in Modena came under Mussolini's control, producing military supplies. Meanwhile, the Ferrari was bombed and moved to the present-day city of Maranello.</p>
+<p>In 1947, when the war ended and he was freed from the influence of Alfa Romeo, Enzo founded Ferrari S.p.A in Maranello and transformed into a racing team that manufactures race cars directly. Shortly thereafter, it became difficult to raise funds for racing, so the 166 Inter, which could be driven on the road, was released in 1949. In fact, Enzo Ferrari was skeptical of producing cars for general road driving, but from this point on, history begins as a company that produces cars to earn money for racing, rather than a car company that competes in races to show off its technological prowess.</p>
+<button>Pause</button>
+<script type="text/javascript" src= "./js/solo3.js"></script>
+</div>
+</body>
+</html>
